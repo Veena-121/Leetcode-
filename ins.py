@@ -8,10 +8,12 @@ def ins(arr):
             else:
                 break
             
-    return arr
+    
 
 def main():
-    print(ins([-3,-7,1,6,5,3,9,-5,0,-2]))
+    a=[-3,-7,1,6,5,3,9,-5,0,-2]
+    ins(a)
+    print(a)
     
 if __name__ == "__main__":
     main()
